@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <div className="text-center">
       <nav
@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <div className="row w-100 justify-content-between">
             <div className="col-auto">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand text-light" href="#">
                 Start Bootstrap
               </a>
             </div>
@@ -31,22 +31,22 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active text-light" href="#">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-light" href="#">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-light" href="#">
                   Services
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-light" href="#">
                   Contact
                 </a>
               </li>
@@ -58,4 +58,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;

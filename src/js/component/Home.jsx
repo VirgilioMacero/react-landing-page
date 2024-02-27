@@ -1,15 +1,16 @@
 import React from "react";
 import BodyContainer from "./BodyContainer";
 import Footer from "./Footer";
+import Navbar from "./navbar";
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="mb-0">
-
+		<>
+			<Navbar/>
 			<BodyContainer />
 			<Footer />
-		</div>
+		</>
 	);
 };
 
